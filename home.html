@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
+
+</head>
+<body>
+
+
+<div class=" header ">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg  container  ">
+        <div class="container-fluid  row ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand   " href="#">Sogo Home</a>
+          <div class="collapse navbar-collapse col-8" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 p-2  ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Reservation</a>
+              </li>
+        
+          </div>
+        </div>
+      </nav>
+
+    </div>
+    </div>
+
+
+
+
+
+<div class="home">
+
+  <video  autoplay muted loop>
+    <source src="v.mp4" type="video/mp4">
+   
+  </video>
+
+
+</div>
+
+    
+
+        <div class="empty-30"></div>
+    <!-- date section -->
+    <div class="check">
+<div class="container">
+<div class="row ">
+<div class="col">      <label>Check In Date</label>
+  <input type="date" name="" ></div>
+
+
+
+<div class="col">
+  <label>Check out Date</label>
+  <input type="date" name="">
+</div>
+
+
+
+<div class="col">  <label>Rooms</label>
+  <select  name="rooms">
+                  
+                  <option class="optroom" value="single room">Single Room</option>
+             
+                  <option class="optroom" value="delux room">Delux Room</option>
+                  <option class="optroom" value="double room">Double Room</option>
+                 
+                </select></div>
+</div>
+
+<div class="row mt-5">
+  <div class="col"> <label >Adults: </label>
+    <input type = "number" min = "1" value = "1" ></div>
+  <div class="col"> <label>Children: </label>
+    <input type = "number" min = "1" value = "1" id = "children"></div>
+  <div class="col"><label for = "rooms">Rooms: </label>
+    <input type = "number" min = "1" value = "1" id = "rooms"></div>
+  </div>
+
+
+</div>
+
+
+<div >
+  <button class=" btsub ">Check Availabilty</button>
+
+</div>
+
+
+    </div>
+
+        
+    
+
+
+    <!-- ------------------------------------------------------ -->
+    
+    
+    <div class="empty-30"></div>
+
+
+
+
+
+
+     <!-- Room section -->
+     <div class="room container">
+<div class="center">ROOMS</div>
+
+<div class="empty-10"></div>
+
+<div class="row">
+<div class="col">
+  <div class="card" style="width: 22rem;">
+  <img src="img1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Delux Room</p>
+    <p class="card-text">199$/Night</p>
+  </div>
+
+
+
+</div></div>
+
+<div class="col">
+  <div class="card" style="width: 22rem;">
+  <img src="img2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Delux Room</p>
+    <p class="card-text">199$/Night</p>
+
+  </div>
+
+
+
+</div></div>
+
+<div class="col">
+  <div class="card" style="width: 22rem;">
+  <img src="img3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Delux Room</p>
+    <p class="card-text">199$/Night</p>
+
+  </div>
+
+
+
+</div></div>
+
+
+</div>
+
+<div class="empty-10"></div>
+<div class="row">
+  <div class="col">
+    <div class="card" style="width: 22rem;">
+    <img src="room-5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">single Room</p>
+      <p class="card-text">99$/Night</p>
+
+    </div>
+  
+  
+  
+  </div></div>
+  
+  <div class="col">
+    <div class="card" style="width: 22rem;">
+    <img src="room-3.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">single Room</p>
+      <p class="card-text">99$/Night</p>
+
+    </div>
+  
+  
+  
+  </div></div>
+  
+  <div class="col">
+    <div class="card" style="width: 22rem;">
+    <img src="room-4.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">single Room</p>
+      <p class="card-text">99$/Night</p>
+
+    </div>
+  
+  
+  
+  </div></div>
+  
+  
+  </div>
+
+<div class="empty-10"></div>
+<div class="row">
+  <div class="col">
+    <div class="card" style="width: 22rem;">
+    <img src="room-2.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Double Room</p>
+      <p class="card-text">149$/Night</p>
+
+    </div>
+  
+  
+  
+  </div></div>
+  
+  <div class="col">
+    <div class="card" style="width: 22rem;">
+    <img src="room-6.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Double Room</p>
+      <p class="card-text">149$/Night</p>
+    </div>
+  
+  
+  
+  </div></div>
+  
+  <div class="col">
+    <div class="card" style="width: 22rem;">
+    <img src="room-5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Double Room</p>
+      <p class="card-text">149$/Night</p>
+    </div>
+  
+  
+  
+  </div></div>
+  
+  
+  </div>
+
+
+     </div>
+    
+    
+    
+    
+        <!-- ------------------------------------------------------ -->
+
+        
+    
+    
+
+
+          <!-----------PHOTO---------------------->
+
+        <div class="room container">
+          <div class="center">PHOTOS</div>
+          <div class="empty-10"></div>
+
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> 
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            
+
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">\
+
+
+
+
+
+
+                      
+                <img src="slider-1.jpg" class="d-block w-100" alt="...">
+              
+              </div>
+              <div class="carousel-item">
+                <img src="slider-2.jpg" class="d-block w-100" alt="...">
+             
+              </div>
+              <div class="carousel-item">
+                <img src="slider-3.jpg" class="d-block w-100" alt="...">
+                
+              </div>
+
+              <div class="carousel-item">
+                <img src="slider-4.jpg" class="d-block w-100" alt="...">
+              
+              </div>
+              <div class="carousel-item">
+                <img src="slider-5.jpg" class="d-block w-100" alt="...">
+              
+              </div>
+
+              <div class="carousel-item">
+                <img src="slider-6.jpg" class="d-block w-100" alt="...">
+              
+              </div>
+
+
+              <div class="carousel-item">
+                <img src="slider-7.jpg" class="d-block w-100" alt="...">
+              
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <!-- ------------------------------------------------------ -->
+
+     <div class="service">
+          <div class="over-layer">
+
+            <div class="container">
+              <div class="row justify-content-center text-center mb-5">
+                <div class="col-md-7">
+                  <h2 class="heading text-white" data-aos="fade">Our Restaurant Menu</h2>
+                  <p class="text-white" >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+              </div>
+
+
+
+
+
+           
+              <div class="row   mb-5">
+
+                <h2 class="color text-center ">   MAINS</h2>
+<div class="empty-10"></div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-5">
+                      <span class=" color  h4 mb-3">$20.00</span>
+                      <h3 class="text-white"><a style="    text-decoration: none;" href="" class="text-white">Murgh Tikka Masala</a></h3>
+                      <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                    <div class="mb-5">
+                      <span class="color h4 mb-3">$35.00</span>
+                      <h3 class="text-white"><a href=""  style=" text-decoration: none;" class="text-white">Fish Moilee</a></h3>
+                      <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                    <div class=" mb-5">
+                      <span class="color h4 mb-3">$15.00</span>
+                      <h3 class="text-white"><a href="#" style="    text-decoration: none;" class="text-white">Safed Gosht</a></h3>
+                      <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="mb-5">
+                      <span class=" color  h4 mb-3">$10.00</span>
+                      <h3 class="text-white"><a style="    text-decoration: none;" href="" class="text-white">French Toast Combo</a></h3>
+                      <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                    <div class="mb-5">
+                      <span class="color h4 mb-3">$8.35</span>
+                      <h3 class="text-white"><a href=""  style=" text-decoration: none;" class="text-white">Vegie Omelet</a></h3>
+                      <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                    <div class=" mb-5">
+                      <span class="color h4 mb-3">$22.00</span>
+                      <h3 class="text-white"><a href="#" style="    text-decoration: none;" class="text-white"> Chorizo &amp; Egg Omelet</a></h3>
+                      <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                  </div>
+
+<!-------------------------------------->
+
+
+
+                  <div class="row   mb-5">
+
+                    <h2 class="color text-center ">   DESSERTS</h2>
+    <div class="empty-10"></div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mb-5">
+                          <span class=" color  h4 mb-3">$20.00</span>
+                          <h3 class="text-white"><a style="    text-decoration: none;" href="" class="text-white">Banana Split</a></h3>
+                          <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb-5">
+                          <span class=" color  h4 mb-3">$40.00</span>
+                          <h3 class="text-white"><a style="    text-decoration: none;" href="" class="text-white">Apple Strudel</a></h3>
+                          <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                      </div>
+
+ <!-------------------------------------->
+
+                      
+
+                  <div class="row   mb-5">
+
+                    <h2 class="color text-center "> DRINKS</h2>
+    <div class="empty-5"></div>
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="mb-5">
+                          <span class=" color  h4 mb-3">$18.00</span>
+                          <h3 class="text-white"><a style="    text-decoration: none;" href="" class="text-white">Lemonade, Lemon Squash</a></h3>
+                          <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="mb-5">
+                          <span class=" color  h4 mb-3">$10.00</span>
+                          <h3 class="text-white"><a style="    text-decoration: none;" href="" class="text-white">Spring Water</a></h3>
+                          <p class="text-white ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                      </div>
+
+
+
+                                 <!-------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              </div>
+
+
+            </div>
+          </div></div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="empty-20"></div>
+
+
+
+               <!-- Footer -->
+
+
+
+           
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+               
+
+
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*
+    عشان لو عملت بادنج لاي عنصر راح يزيد عرضه 
+    فعشان م بتغير عرض العنصر م يزيد width بعمل هاي 
+    */
+
+}
+
+.header{z-index: 10;
+    position: fixed;
+color: white;}
+
+
+.home{
+    height: 130vh;
+   
+    
+    position: relative;
+}
+.service{
+    height: 220vh;
+    background-image: url(hero_3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.over-layer{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.home-content{
+    width: 65%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+
+.home .title{
+    color: antiquewhite;
+    font-size: 3rem;
+}
+.active{
+    color: antiquewhite;
+    font-size: 1.4rem;
+}
+.header a{
+    color: antiquewhite;
+    font-size: 1.4rem;
+}
+.home .home-desc{
+    color: antiquewhite;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+.empty-5{
+    height: 5vh;
+}
+
+.empty-10{
+    height: 10vh;
+}
+.empty-30{
+    height: 30vh;
+}
+.empty-20{
+    height: 20vh;
+}
+.check{
+
+    height:40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("banner-img.jpg") center/cover no-repeat;
+color: aliceblue;
+
+}
+
+
+
+
+.btsub{
+    border-radius: 50px;
+    border: 2px solid#ffba5a;
+margin-right: 50px;
+background: #ffba5a;
+}
+
+.color{
+    color:#ffba5a
+}
+
+.shadow{
+    color:#e9e7e3;
+    text-shadow: 2px 2px 4px #000000;
+}
+.room{
+
+height: 220vh;
+
+
+}
+.center{
+    font-weight: bolder;
+    font-size: xx-large;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}.card-text{
+    text-align: center;
+
+}
+
+.card {
+ 
+  
+    transition: transform .2s;
+ 
+    margin: 0 auto;
+  }
+  
+  .card:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+  .heading{
+    font-family: "Playfair Display", times, serif;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  a{
+    text-decoration: none;
+  }
